@@ -1,0 +1,14 @@
+{
+  "allowedTools": [
+    "Read",
+    "Glob",
+    "Grep"
+  ],
+  "deniedTools": [
+    "Bash",
+    "Write",
+    "Edit",
+    "NotebookEdit"
+  ],
+  "note": "Configuración muy restrictiva: solo lectura. Útil para agentes de investigación que no deben modificar nada."
+}

@@ -1,0 +1,16 @@
+{
+  "allowedTools": [
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "Bash"
+  ],
+  "bashRestrictions": {
+    "allowedCommands": ["git", "npm", "node", "python", "curl"],
+    "deniedCommands": ["rm -rf", "sudo", "chmod", "chown", "dd"],
+    "maxExecutionTime": 30000
+  },
+  "note": "Configuración equilibrada: puede leer/escribir y ejecutar comandos seguros."
+}

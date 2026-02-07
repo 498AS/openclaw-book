@@ -1,0 +1,20 @@
+{
+  "agent": {
+    "model": "claude-sonnet-4-20250514",
+    "thinkingModel": "claude-opus-4-5-20251101"
+  },
+  "permissions": {
+    "allowedTools": [
+      "Read",
+      "Edit",
+      "Write",
+      "Bash",
+      "Glob",
+      "Grep"
+    ]
+  },
+  "memory": {
+    "enabled": true,
+    "path": "~/.openclaw/memory"
+  }
+}
